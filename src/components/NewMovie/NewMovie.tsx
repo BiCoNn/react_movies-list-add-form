@@ -40,7 +40,7 @@ export const NewMovie = ({ onAdd }: NewMovieProps) => {
   };
 
   return (
-    <form className="NewMovie" key={count} onSubmit={e => addMovieHandler(e)}>
+    <form className="NewMovie" key={count} onSubmit={event => addMovieHandler(event)}>
       <h2 className="title">Add a movie</h2>
 
       <TextField
